@@ -1,0 +1,23 @@
+{
+  "name": "SpacedRepetition",
+  "version": "0.0.2",
+  "summary": "Implementing the concept of Spaced Repetition. Provides storage and incrementing for correct and incorrect answers.",
+  "description": "provides a framework to add spaced repetition to questions",
+  "homepage": "https://github.com/mike011/SpacedRepetition",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "./LICENSE_TOO_ILL"
+  },
+  "authors": {
+    "mike011": "mike_ch_1@hotmail.com"
+  },
+  "social_media_url": "http://twitter.com/mike011",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "http://https://github.com/mike011/SpacedRepetition.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "SpacedRepetition/**/*"
+}

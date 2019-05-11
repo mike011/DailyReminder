@@ -1,0 +1,6 @@
+module Pods_DailyReminder {
+  umbrella header "Pods-DailyReminder-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SpacedRepetition (0.0.2)
+
+DEPENDENCIES:
+  - SpacedRepetition (from `../../git/SpacedRepetition/`)
+
+EXTERNAL SOURCES:
+  SpacedRepetition:
+    :path: "../../git/SpacedRepetition/"
+
+SPEC CHECKSUMS:
+  SpacedRepetition: 8fd2a2995695740331501762264d34aab1c189bb
+
+PODFILE CHECKSUM: 07f807c21b372ed0a60cf15735508d7bce6e5abd
+
+COCOAPODS: 1.5.3
