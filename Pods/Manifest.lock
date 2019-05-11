@@ -1,0 +1,16 @@
+PODS:
+  - SpacedRepetition (0.0.3)
+
+DEPENDENCIES:
+  - SpacedRepetition (from `../SpacedRepetition/`)
+
+EXTERNAL SOURCES:
+  SpacedRepetition:
+    :path: "../SpacedRepetition/"
+
+SPEC CHECKSUMS:
+  SpacedRepetition: dc22aa930148d7ee1e46aa6d8aca9635aa081edb
+
+PODFILE CHECKSUM: 47e5c3ca57b8df952973b3ed81b405725679207f
+
+COCOAPODS: 1.5.3

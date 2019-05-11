@@ -4,5 +4,5 @@ platform :ios, '11.0'
 target 'DailyReminder' do
 
   # Pods for DailyReminder
-  pod 'SpacedRepetition', path: '../../git/SpacedRepetition/'
+  pod 'SpacedRepetition', path: '../SpacedRepetition/'
 end

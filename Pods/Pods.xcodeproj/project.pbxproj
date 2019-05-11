@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F384EE907B8BA5C598776892EF47AD6 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03419A053761FE05FD0659D56D2C0FEF /* Questions.swift */; };
+		3BF840C2ECA5439D8B86BE4FA0F2ACA8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F07B95694DBAAF6DB77AAA762CE0FA /* Question.swift */; };
+		40583ED13F391DDB571F786CFDCC6D3B /* SpacedRepetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E3F7552B5E361E23F9E334AAE2E65 /* SpacedRepetition.swift */; };
+		7C01F43F7517BA7AB4811205DA8D802B /* Pods-DailyReminder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E3C70D6E0C67FBB4544DBDB87DD5 /* Pods-DailyReminder-dummy.m */; };
+		A0252F9C8D980711C86F10224C2B8E7D /* Pods-DailyReminder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56046F3C14416313E2D4A739DC9BDC80 /* Pods-DailyReminder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B91DDA3EAB6D7C5AE7FCEA911A88620F /* SpacedRepetition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F64CA3F3514C44F88F848A0A5A598 /* SpacedRepetition-dummy.m */; };
+		EE1033F7AAF7CC69BBB75CC40BA1BA39 /* SpacedRepetition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 978CA84334B92773695661D3401725BE /* SpacedRepetition-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1D845632D0B0E9A344AD6995868D06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DB5BD96C4139C41B39B1473A446FFE;
+			remoteInfo = SpacedRepetition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03419A053761FE05FD0659D56D2C0FEF /* Questions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Questions.swift; path = SpacedRepetition/Questions.swift; sourceTree = "<group>"; };
+		120CC8ED757CBDDC5198DE0F8618AA4E /* SpacedRepetition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpacedRepetition-prefix.pch"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41995F212D48EF4D0E63ED5C5FA47F3F /* LICENSE_TOO_ILL */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE_TOO_ILL; sourceTree = "<group>"; };
+		4AC3106D5EF40FEA6DA1A8723D86D459 /* Pods-DailyReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyReminder.release.xcconfig"; sourceTree = "<group>"; };
+		555C8CB0DA29662CA09535E02F29F300 /* libSpacedRepetition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSpacedRepetition.a; path = libSpacedRepetition.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56046F3C14416313E2D4A739DC9BDC80 /* Pods-DailyReminder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyReminder-umbrella.h"; sourceTree = "<group>"; };
+		58F8A0EDD14F16DB82E819D901C3CBF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F102F75E7C27DE13964AC5C01956DC6 /* Pods-DailyReminder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyReminder.modulemap"; sourceTree = "<group>"; };
+		614F64CA3F3514C44F88F848A0A5A598 /* SpacedRepetition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpacedRepetition-dummy.m"; sourceTree = "<group>"; };
+		6A120FE29660D153CE2ADC0368E9EBB7 /* SpacedRepetition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpacedRepetition.xcconfig; sourceTree = "<group>"; };
+		6BFFCDB2F2FC68FB2798E8F4B12A9206 /* SpacedRepetition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SpacedRepetition.modulemap; path = ../../Headers/Public/SpacedRepetition/SpacedRepetition.modulemap; sourceTree = "<group>"; };
+		73BCEC6C946089BF69C3B223CBE67D55 /* Pods-DailyReminder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyReminder-resources.sh"; sourceTree = "<group>"; };
+		87D427086A2D9B12C0ADE025BD4D5CAB /* Pods-DailyReminder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyReminder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		978CA84334B92773695661D3401725BE /* SpacedRepetition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpacedRepetition-umbrella.h"; path = "../../Headers/Public/SpacedRepetition/SpacedRepetition-umbrella.h"; sourceTree = "<group>"; };
+		99424D318B0E2C6CBE00A269C11037FF /* SpacedRepetition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SpacedRepetition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3E3F7552B5E361E23F9E334AAE2E65 /* SpacedRepetition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpacedRepetition.swift; path = SpacedRepetition/SpacedRepetition.swift; sourceTree = "<group>"; };
+		ACA1E3C70D6E0C67FBB4544DBDB87DD5 /* Pods-DailyReminder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyReminder-dummy.m"; sourceTree = "<group>"; };
+		C5F07B95694DBAAF6DB77AAA762CE0FA /* Question.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Question.swift; path = SpacedRepetition/Question.swift; sourceTree = "<group>"; };
+		D7187DCC6340F7C575A21170670C2D71 /* Pods-DailyReminder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyReminder-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEF7655D2090B9ABCBDED506D0F070CB /* Pods-DailyReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		EEF8DDB9BF12FE140F73F74157FA3798 /* libPods-DailyReminder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DailyReminder.a"; path = "libPods-DailyReminder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F896F9AB51E152D89E9A152991E7DDC0 /* Pods-DailyReminder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyReminder-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C22F05BA842302F2D8FDD31E6C7C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C1A7E198426207A5861AE467ED574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072B7B162F5050C6CD6EFF2E0740BE7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85F324AE8E2876A0E9411580A052BE7F /* Pods-DailyReminder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EC477FCAC3EAA5361D70411D7B051D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				41995F212D48EF4D0E63ED5C5FA47F3F /* LICENSE_TOO_ILL */,
+				58F8A0EDD14F16DB82E819D901C3CBF8 /* README.md */,
+				99424D318B0E2C6CBE00A269C11037FF /* SpacedRepetition.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		408637EAA9EA3E5466A17B65A4DAC827 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BFFCDB2F2FC68FB2798E8F4B12A9206 /* SpacedRepetition.modulemap */,
+				6A120FE29660D153CE2ADC0368E9EBB7 /* SpacedRepetition.xcconfig */,
+				614F64CA3F3514C44F88F848A0A5A598 /* SpacedRepetition-dummy.m */,
+				120CC8ED757CBDDC5198DE0F8618AA4E /* SpacedRepetition-prefix.pch */,
+				978CA84334B92773695661D3401725BE /* SpacedRepetition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../DailyReminder/Pods/Target Support Files/SpacedRepetition";
+			sourceTree = "<group>";
+		};
+		80E0D24356FAB24F24DFE2D459BDC913 /* SpacedRepetition */ = {
+			isa = PBXGroup;
+			children = (
+				C5F07B95694DBAAF6DB77AAA762CE0FA /* Question.swift */,
+				03419A053761FE05FD0659D56D2C0FEF /* Questions.swift */,
+				9E3E3F7552B5E361E23F9E334AAE2E65 /* SpacedRepetition.swift */,
+				0EC477FCAC3EAA5361D70411D7B051D2 /* Pod */,
+				408637EAA9EA3E5466A17B65A4DAC827 /* Support Files */,
+			);
+			name = SpacedRepetition;
+			path = ../../SpacedRepetition;
+			sourceTree = "<group>";
+		};
+		85F324AE8E2876A0E9411580A052BE7F /* Pods-DailyReminder */ = {
+			isa = PBXGroup;
+			children = (
+				5F102F75E7C27DE13964AC5C01956DC6 /* Pods-DailyReminder.modulemap */,
+				87D427086A2D9B12C0ADE025BD4D5CAB /* Pods-DailyReminder-acknowledgements.markdown */,
+				D7187DCC6340F7C575A21170670C2D71 /* Pods-DailyReminder-acknowledgements.plist */,
+				ACA1E3C70D6E0C67FBB4544DBDB87DD5 /* Pods-DailyReminder-dummy.m */,
+				F896F9AB51E152D89E9A152991E7DDC0 /* Pods-DailyReminder-frameworks.sh */,
+				73BCEC6C946089BF69C3B223CBE67D55 /* Pods-DailyReminder-resources.sh */,
+				56046F3C14416313E2D4A739DC9BDC80 /* Pods-DailyReminder-umbrella.h */,
+				DEF7655D2090B9ABCBDED506D0F070CB /* Pods-DailyReminder.debug.xcconfig */,
+				4AC3106D5EF40FEA6DA1A8723D86D459 /* Pods-DailyReminder.release.xcconfig */,
+			);
+			name = "Pods-DailyReminder";
+			path = "Target Support Files/Pods-DailyReminder";
+			sourceTree = "<group>";
+		};
+		B2E5FDF4FDC6E9AD5C71904F0407D340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF8DDB9BF12FE140F73F74157FA3798 /* libPods-DailyReminder.a */,
+				555C8CB0DA29662CA09535E02F29F300 /* libSpacedRepetition.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5C8A615437EA6C608E3DD24CE3ED9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80E0D24356FAB24F24DFE2D459BDC913 /* SpacedRepetition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				CC5C8A615437EA6C608E3DD24CE3ED9A /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B2E5FDF4FDC6E9AD5C71904F0407D340 /* Products */,
+				072B7B162F5050C6CD6EFF2E0740BE7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		394E06D7E17BEB725BCCEA0382073CE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0252F9C8D980711C86F10224C2B8E7D /* Pods-DailyReminder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F95C967E09B8962A5BB43F39F130CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1033F7AAF7CC69BBB75CC40BA1BA39 /* SpacedRepetition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A372B9A84F5D89E342C6FDB0A28499B /* Pods-DailyReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4266A96B71523FFD0241639826983F /* Build configuration list for PBXNativeTarget "Pods-DailyReminder" */;
+			buildPhases = (
+				394E06D7E17BEB725BCCEA0382073CE6 /* Headers */,
+				0FCA7323FF6390D8F5A9766FD0056F1A /* Sources */,
+				EA2C1A7E198426207A5861AE467ED574 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F56D27F993227AF3923147F8529890 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyReminder";
+			productName = "Pods-DailyReminder";
+			productReference = EEF8DDB9BF12FE140F73F74157FA3798 /* libPods-DailyReminder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		70DB5BD96C4139C41B39B1473A446FFE /* SpacedRepetition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC330DCE31716062345BF31B48CB8A4 /* Build configuration list for PBXNativeTarget "SpacedRepetition" */;
+			buildPhases = (
+				D4F95C967E09B8962A5BB43F39F130CC /* Headers */,
+				5DFAC5AEBB04106F261CB9391617268D /* Sources */,
+				D9C22F05BA842302F2D8FDD31E6C7C08 /* Frameworks */,
+				F27936EA13B6C2F4A05BC88E5C5CF5D2 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacedRepetition;
+			productName = SpacedRepetition;
+			productReference = 555C8CB0DA29662CA09535E02F29F300 /* libSpacedRepetition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B2E5FDF4FDC6E9AD5C71904F0407D340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A372B9A84F5D89E342C6FDB0A28499B /* Pods-DailyReminder */,
+				70DB5BD96C4139C41B39B1473A446FFE /* SpacedRepetition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F27936EA13B6C2F4A05BC88E5C5CF5D2 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SpacedRepetition/SpacedRepetition.modulemap",
+				"${PODS_ROOT}/Headers/Public/SpacedRepetition/SpacedRepetition-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SpacedRepetition-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SpacedRepetition/SpacedRepetition.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SpacedRepetition/SpacedRepetition-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FCA7323FF6390D8F5A9766FD0056F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C01F43F7517BA7AB4811205DA8D802B /* Pods-DailyReminder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFAC5AEBB04106F261CB9391617268D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF840C2ECA5439D8B86BE4FA0F2ACA8 /* Question.swift in Sources */,
+				0F384EE907B8BA5C598776892EF47AD6 /* Questions.swift in Sources */,
+				B91DDA3EAB6D7C5AE7FCEA911A88620F /* SpacedRepetition-dummy.m in Sources */,
+				40583ED13F391DDB571F786CFDCC6D3B /* SpacedRepetition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F56D27F993227AF3923147F8529890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpacedRepetition;
+			target = 70DB5BD96C4139C41B39B1473A446FFE /* SpacedRepetition */;
+			targetProxy = E1D845632D0B0E9A344AD6995868D06E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204789B8B732D2A1C16028042A198CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF7655D2090B9ABCBDED506D0F070CB /* Pods-DailyReminder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyReminder/Pods-DailyReminder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41719ECFD4D024CFABD0D7D79C05D6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A120FE29660D153CE2ADC0368E9EBB7 /* SpacedRepetition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SpacedRepetition/SpacedRepetition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SpacedRepetition/SpacedRepetition.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SpacedRepetition;
+				PRODUCT_NAME = SpacedRepetition;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62EE339F9D415F171F016BA69CC907E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC3106D5EF40FEA6DA1A8723D86D459 /* Pods-DailyReminder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyReminder/Pods-DailyReminder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C5ED2858717A79652C8E2D69CFE7F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEB694B0FF8951478A233FB4FBE9DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A120FE29660D153CE2ADC0368E9EBB7 /* SpacedRepetition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SpacedRepetition/SpacedRepetition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SpacedRepetition/SpacedRepetition.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SpacedRepetition;
+				PRODUCT_NAME = SpacedRepetition;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5BFA818FC42461784455EDD41279F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4266A96B71523FFD0241639826983F /* Build configuration list for PBXNativeTarget "Pods-DailyReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204789B8B732D2A1C16028042A198CC1 /* Debug */,
+				62EE339F9D415F171F016BA69CC907E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC330DCE31716062345BF31B48CB8A4 /* Build configuration list for PBXNativeTarget "SpacedRepetition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41719ECFD4D024CFABD0D7D79C05D6BF /* Debug */,
+				AEB694B0FF8951478A233FB4FBE9DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5ED2858717A79652C8E2D69CFE7F88 /* Debug */,
+				EF5BFA818FC42461784455EDD41279F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
