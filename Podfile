@@ -5,4 +5,6 @@ target 'DailyReminder' do
 
   # Pods for DailyReminder
   pod 'SpacedRepetition', path: '../SpacedRepetition/'
+
+  target :DailyReminderTests
 end

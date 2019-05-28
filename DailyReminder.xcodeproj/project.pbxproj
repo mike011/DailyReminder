@@ -16,6 +16,7 @@
 		4C0C1D552247F3ED00B9CF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C1D542247F3ED00B9CF54 /* Assets.xcassets */; };
 		4C0C1D582247F3ED00B9CF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C1D562247F3ED00B9CF54 /* LaunchScreen.storyboard */; };
 		4C0C1D602247F69500B9CF54 /* WinFriendsAndInfluencePeopleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C1D5F2247F69500B9CF54 /* WinFriendsAndInfluencePeopleData.swift */; };
+		EEA20E8498FD6C23556A9473 /* libPods-DailyReminder-DailyReminderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5592641F576C2415F68BC52E /* libPods-DailyReminder-DailyReminderTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		1A02D3A2309D199358AC7832 /* libPods-DailyReminder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DailyReminder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBBCAC4FB8564EB2A7C7000 /* Pods-DailyReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyReminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyReminder/Pods-DailyReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		33C06700B7F722C77D21D2EF /* Pods-DailyReminder-DailyReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyReminder-DailyReminderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyReminder-DailyReminderTests/Pods-DailyReminder-DailyReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAFE4AA1A5109240BBAE009 /* Pods-DailyReminder-DailyReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyReminder-DailyReminderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyReminder-DailyReminderTests/Pods-DailyReminder-DailyReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C09F99C22634F0C00A77AD7 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		4C0C1D482247F3EC00B9CF54 /* DailyReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0C1D4B2247F3EC00B9CF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		4C61E9DA22730A8400F95EA9 /* DailyReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C61E9DE22730A8400F95EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C61E9E422730A9800F95EA9 /* DailyReminderTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailyReminderTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5592641F576C2415F68BC52E /* libPods-DailyReminder-DailyReminderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DailyReminder-DailyReminderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B013084C2829E3028F23FBC0 /* Pods-DailyReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyReminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyReminder/Pods-DailyReminder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA20E8498FD6C23556A9473 /* libPods-DailyReminder-DailyReminderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,8 @@
 			children = (
 				1EBBCAC4FB8564EB2A7C7000 /* Pods-DailyReminder.debug.xcconfig */,
 				B013084C2829E3028F23FBC0 /* Pods-DailyReminder.release.xcconfig */,
+				33C06700B7F722C77D21D2EF /* Pods-DailyReminder-DailyReminderTests.debug.xcconfig */,
+				3FAFE4AA1A5109240BBAE009 /* Pods-DailyReminder-DailyReminderTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				1A02D3A2309D199358AC7832 /* libPods-DailyReminder.a */,
+				5592641F576C2415F68BC52E /* libPods-DailyReminder-DailyReminderTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C61E9E322730A8400F95EA9 /* Build configuration list for PBXNativeTarget "DailyReminderTests" */;
 			buildPhases = (
+				55C429688C2CDF046F5A546A /* [CP] Check Pods Manifest.lock */,
 				4C61E9D622730A8400F95EA9 /* Sources */,
 				4C61E9D722730A8400F95EA9 /* Frameworks */,
 				4C61E9D822730A8400F95EA9 /* Resources */,
@@ -243,6 +252,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DailyReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C429688C2CDF046F5A546A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyReminder-DailyReminderTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.charland.DailyReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,13 +483,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.charland.DailyReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		4C61E9E122730A8400F95EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C06700B7F722C77D21D2EF /* Pods-DailyReminder-DailyReminderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -483,6 +515,7 @@
 		};
 		4C61E9E222730A8400F95EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAFE4AA1A5109240BBAE009 /* Pods-DailyReminder-DailyReminderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
