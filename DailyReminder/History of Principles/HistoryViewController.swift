@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  HistoryViewController.swift
 //  DailyReminder
 //
 //  Created by Michael Charland on 2019-03-24.
@@ -9,7 +9,7 @@
 import UIKit
 import SpacedRepetition
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     var questonData: [Question]!

@@ -19,8 +19,17 @@ class WinFriendsAndInfluencePeopleData {
     class func getValues() -> [String: Data] {
 
         var result = [String: Data]()
+        result = result.merging(partOne()) { $1 }
+        result = result.merging(partTwo()) { $1 }
+        result = result.merging(partThree()) { $1 }
+        result = result.merging(partFour()) { $1 }
+        result = result.merging(partSix()) { $1 }
+        return result
+    }
 
-        var part = "Part One:  Fundamental Techniques in Handling People"
+    class func partOne() -> [String: Data] {
+        var result = [String: Data]()
+        let part = "Part One: Fundamental Techniques in Handling People"
         var section = "Principle 1 – Don’t Criticize, Condemn or Complain"
         var description = "For most of us, it is easier to criticize, condemn or complain.  We’re not aware how these negative attitudes greatly affect not only our moods or feeling, but as well as our relationship with other people.  Whenever you feel like criticizing, complaining or condemning other people, remember this, If you want to gather honey, don’t kick over the beehive."
         result[section] = Data(part: part, section: section, description: description)
@@ -32,11 +41,15 @@ class WinFriendsAndInfluencePeopleData {
         section = "Principle 3 – Arouse in the Other Person an Eager Want"
         description = "Most people are self-centered and self-seeking.  Our world is full of these kinds.  But those rare individual who unselfishly tries to serve others has future in store for them and they have an enormous advantage.  Remember,  If there’s any one secret of success, it lies in the ability to get the other person’s point of view and see things from the other person’s point of view and see things from that person’s angle as well as from your own. ~ Henry Ford"
         result[section] = Data(part: part, section: section, description: description)
+        return result
+    }
 
+    class func partTwo() -> [String: Data] {
+        var result = [String: Data]()
 
-        part = "Part Two: Six Ways to Make People Like You"
-        section = "Principle 4 – Be Genuinely Interested in Other People"
-        description = "The key point in this principle is that you can make more friends in two months by becoming genuinely interested in other people than you can in two years by trying to get other people interested in you."
+        let part = "Part Two: Six Ways to Make People Like You"
+        var section = "Principle 4 – Be Genuinely Interested in Other People"
+        var description = "The key point in this principle is that you can make more friends in two months by becoming genuinely interested in other people than you can in two years by trying to get other people interested in you."
         result[section] = Data(part: part, section: section, description: description)
 
         section = "Principle 5 – Smile"
@@ -58,10 +71,15 @@ class WinFriendsAndInfluencePeopleData {
         section = "Principle 9 – Make the Other Person feel important – and do it sincerely"
         description = "Talk to people about themselves and they will listen for hours."
         result[section] = Data(part: part, section: section, description: description)
+        return result
+    }
 
-        part = "Part Three: How to Win People to Your Way of Thinking"
-        section = "Principle 10 – The only way to get the best of an argument is to avoid it"
-        description = "Avoid arguments.  You can’t win an argument.  You can’t because if you lose it, you lose it and if you win it, you lose it.  Because a man convinced against his will is of the same opinion still."
+    class func partThree() -> [String: Data] {
+        var result = [String: Data]()
+
+        let part = "Part Three: How to Win People to Your Way of Thinking"
+        var section = "Principle 10 – The only way to get the best of an argument is to avoid it"
+        var description = "Avoid arguments.  You can’t win an argument.  You can’t because if you lose it, you lose it and if you win it, you lose it.  Because a man convinced against his will is of the same opinion still."
         result[section] = Data(part: part, section: section, description: description)
 
         section = "Principle 11 – Show respect for the other person’s opinions.  Never say, “You’re wrong”"
@@ -107,10 +125,15 @@ class WinFriendsAndInfluencePeopleData {
         section = "Principle 21 – Throw down a challenge"
         description = "The one major factor that motivated people was the work itself.  If the work was exciting and interesting, the worker looked forward to doing it and was motivated to do a good job."
         result[section] = Data(part: part, section: section, description: description)
+        return result
+    }
 
-        part = "Part Four: How to Change People Without Giving Offense or Arousing Resentment"
-        section = "Principle 22 – Begin with praise and honest appreciation"
-        description = "It’s like the dentist who begins with his work Novocain.  The patient still gets a drilling, but the Novocain is pain-killing."
+    class func partFour() -> [String: Data] {
+        var result = [String: Data]()
+
+        let part = "Part Four: How to Change People Without Giving Offense or Arousing Resentment"
+        var section = "Principle 22 – Begin with praise and honest appreciation"
+        var description = "It’s like the dentist who begins with his work Novocain.  The patient still gets a drilling, but the Novocain is pain-killing."
         result[section] = Data(part: part, section: section, description: description)
 
         section = "Principle 23 – Call attention to people’s mistakes indirectly"
@@ -143,6 +166,43 @@ class WinFriendsAndInfluencePeopleData {
 
         section = "Principle 30 – Make the other person happy about doing the thing you suggest"
         description = "Always make the other person happy about doing the thing you suggest."
+        result[section] = Data(part: part, section: section, description: description)
+        return result
+    }
+
+    class func partSix() -> [String: Data] {
+        var result = [String: Data]()
+
+        let part = "Part Six: Seven Rules For Making Your Home Life Happier"
+        var section = "Principle 31 - Don’t nag."
+        var description = "Many a partner has made there maritial grave with a series of little digs"
+        result[section] = Data(part: part, section: section, description: description)
+
+        section = "Principle 32 - Don’t try to make your partner over."
+        description = "Success in marriage is much more than a matter of finding the right person; it is also a matter of being the right person"
+        result[section] = Data(part: part, section: section, description: description)
+
+        section = "Principle 33 - Don’t criticize."
+        description = "This will only destroy the happiness of my marriage"
+        result[section] = Data(part: part, section: section, description: description)
+
+        section = "Principle 34 - Give honest appreciation."
+        description = "Remember the short Father Forgets"
+        result[section] = Data(part: part, section: section, description: description)
+
+        section = "Principle 35 - Pay attention."
+        description = """
+        I shall pass this way but once; any good, therefore, that I can do or any kindness that I can show to any human being, let me do it now.
+        Let me not defer nor neglect it for I shall not pass this way again.
+        """
+        result[section] = Data(part: part, section: section, description: description)
+
+        section = "Principle 36 - Be courteous."
+        description = "Rudeness is the cancer that devours love. Everyone knows this, yet it's notorious we are more polite to strangers than we are to our own relatives."
+        result[section] = Data(part: part, section: section, description: description)
+
+        section = "Principle 37 - Read a good book on the sexual side of marriage."
+        description = "This will better help me work on my biases and behaviours that are negative in my marriage."
         result[section] = Data(part: part, section: section, description: description)
 
         return result

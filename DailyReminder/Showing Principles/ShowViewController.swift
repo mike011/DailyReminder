@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ShowViewController.swift
 //  DailyReminder
 //
 //  Created by Michael Charland on 2019-03-24.
@@ -9,7 +9,7 @@
 import UIKit
 import SpacedRepetition
 
-class FirstViewController: UIViewController {
+class ShowViewController: UIViewController {
 
     @IBOutlet weak var partLabel: UILabel!
     @IBOutlet weak var sectionTextView: UITextView!

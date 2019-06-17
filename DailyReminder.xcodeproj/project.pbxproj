@@ -10,8 +10,8 @@
 		2934525E230D9A460C7F7D15 /* libPods-DailyReminder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A02D3A2309D199358AC7832 /* libPods-DailyReminder.a */; };
 		4C09F99D22634F0C00A77AD7 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C09F99C22634F0C00A77AD7 /* QuestionTableViewCell.swift */; };
 		4C0C1D4C2247F3EC00B9CF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C1D4B2247F3EC00B9CF54 /* AppDelegate.swift */; };
-		4C0C1D4E2247F3EC00B9CF54 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C1D4D2247F3EC00B9CF54 /* FirstViewController.swift */; };
-		4C0C1D502247F3EC00B9CF54 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C1D4F2247F3EC00B9CF54 /* SecondViewController.swift */; };
+		4C0C1D4E2247F3EC00B9CF54 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C1D4D2247F3EC00B9CF54 /* ShowViewController.swift */; };
+		4C0C1D502247F3EC00B9CF54 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C1D4F2247F3EC00B9CF54 /* HistoryViewController.swift */; };
 		4C0C1D532247F3EC00B9CF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C1D512247F3EC00B9CF54 /* Main.storyboard */; };
 		4C0C1D552247F3ED00B9CF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C1D542247F3ED00B9CF54 /* Assets.xcassets */; };
 		4C0C1D582247F3ED00B9CF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C1D562247F3ED00B9CF54 /* LaunchScreen.storyboard */; };
@@ -37,8 +37,8 @@
 		4C09F99C22634F0C00A77AD7 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		4C0C1D482247F3EC00B9CF54 /* DailyReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0C1D4B2247F3EC00B9CF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C0C1D4D2247F3EC00B9CF54 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4C0C1D4F2247F3EC00B9CF54 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4C0C1D4D2247F3EC00B9CF54 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		4C0C1D4F2247F3EC00B9CF54 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		4C0C1D522247F3EC00B9CF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C0C1D542247F3ED00B9CF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0C1D572247F3ED00B9CF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,14 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				4C0C1D4B2247F3EC00B9CF54 /* AppDelegate.swift */,
-				4C0C1D4D2247F3EC00B9CF54 /* FirstViewController.swift */,
-				4C0C1D4F2247F3EC00B9CF54 /* SecondViewController.swift */,
-				4C0C1D512247F3EC00B9CF54 /* Main.storyboard */,
-				4C0C1D542247F3ED00B9CF54 /* Assets.xcassets */,
-				4C0C1D562247F3ED00B9CF54 /* LaunchScreen.storyboard */,
+				4CCF728A22B7943900DBF933 /* UI */,
+				4CCF728722B7940700DBF933 /* Showing Principles */,
+				4CCF728822B7941800DBF933 /* History of Principles */,
+				4CCF728B22B79F5100DBF933 /* Adding Principles */,
 				4C0C1D592247F3ED00B9CF54 /* Info.plist */,
-				4C0C1D5F2247F69500B9CF54 /* WinFriendsAndInfluencePeopleData.swift */,
-				4C09F99C22634F0C00A77AD7 /* QuestionTableViewCell.swift */,
 			);
 			path = DailyReminder;
 			sourceTree = "<group>";
@@ -114,6 +111,41 @@
 				4C61E9E422730A9800F95EA9 /* DailyReminderTests-Bridging-Header.h */,
 			);
 			path = DailyReminderTests;
+			sourceTree = "<group>";
+		};
+		4CCF728722B7940700DBF933 /* Showing Principles */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C1D4D2247F3EC00B9CF54 /* ShowViewController.swift */,
+			);
+			path = "Showing Principles";
+			sourceTree = "<group>";
+		};
+		4CCF728822B7941800DBF933 /* History of Principles */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C1D4F2247F3EC00B9CF54 /* HistoryViewController.swift */,
+				4C09F99C22634F0C00A77AD7 /* QuestionTableViewCell.swift */,
+			);
+			path = "History of Principles";
+			sourceTree = "<group>";
+		};
+		4CCF728A22B7943900DBF933 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C1D562247F3ED00B9CF54 /* LaunchScreen.storyboard */,
+				4C0C1D512247F3EC00B9CF54 /* Main.storyboard */,
+				4C0C1D542247F3ED00B9CF54 /* Assets.xcassets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4CCF728B22B79F5100DBF933 /* Adding Principles */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C1D5F2247F69500B9CF54 /* WinFriendsAndInfluencePeopleData.swift */,
+			);
+			path = "Adding Principles";
 			sourceTree = "<group>";
 		};
 		B54D9F830C1170D82863DBC3 /* Pods */ = {
@@ -287,11 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0C1D502247F3EC00B9CF54 /* SecondViewController.swift in Sources */,
+				4C0C1D502247F3EC00B9CF54 /* HistoryViewController.swift in Sources */,
 				4C09F99D22634F0C00A77AD7 /* QuestionTableViewCell.swift in Sources */,
 				4C0C1D602247F69500B9CF54 /* WinFriendsAndInfluencePeopleData.swift in Sources */,
 				4C0C1D4C2247F3EC00B9CF54 /* AppDelegate.swift in Sources */,
-				4C0C1D4E2247F3EC00B9CF54 /* FirstViewController.swift in Sources */,
+				4C0C1D4E2247F3EC00B9CF54 /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
