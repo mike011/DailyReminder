@@ -1,6 +1,0 @@
-module Pods_DailyReminder_DailyReminderTests {
-  umbrella header "Pods-DailyReminder-DailyReminderTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

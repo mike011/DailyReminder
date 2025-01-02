@@ -1,0 +1,15 @@
+{
+  "originHash" : "628a6c11ecc48815ef46368f702f2e353990370d2f6bb43a8120856497eb6c92",
+  "pins" : [
+    {
+      "identity" : "spacedrepetition",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mike011/SpacedRepetition",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e2cbff447f597bf707884a52184dee5f447c36bb"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -6,6 +6,7 @@
 //  Copyright © 2019 charland. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import SpacedRepetition
 
@@ -30,7 +31,9 @@ class ShowViewController: UIViewController {
     func loadData() {
         datas = WinFriendsAndInfluencePeopleData.getValues()
 
-        let keys = datas.keys.map({$0})
+        let keys = datas.map { k, _ in
+            Question(title: k)
+        }
         questions.add(questions: keys)
     }
 

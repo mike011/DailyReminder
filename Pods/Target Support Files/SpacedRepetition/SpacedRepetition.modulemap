@@ -1,6 +1,0 @@
-framework module SpacedRepetition {
-  umbrella header "SpacedRepetition-umbrella.h"
-
-  export *
-  module * { export * }
-}
